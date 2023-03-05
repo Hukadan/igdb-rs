@@ -72,12 +72,12 @@ impl RequestBuilder {
     ///It can also be created using IGDBClient::create_request();
     /// # Examples
     /// ```
-    ///use igdb_rs::request_builder::RequestBuilder;
+    ///use igdb::request_builder::RequestBuilder;
     ///
     /// let mut request = RequestBuilder::new();
     /// ```
     /// ```
-    ///use igdb_rs::client::IGDBClient;
+    ///use igdb::client::IGDBClient;
     ///
     ///let mut request = IGDBClient::create_request();
     /// ```
@@ -138,7 +138,7 @@ impl RequestBuilder {
                     ));
 
                     if i == (self.filters.len() - 1) {
-                        acc.push_str(";");
+                        acc.push(';');
                     }
                     acc
                 });

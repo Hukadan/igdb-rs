@@ -1,6 +1,6 @@
 //! # Non-Official Internet Game Database Api Client written in Rust
 //!
-//! With igdb-rs you can easily retrieve video game related information such as:
+//! With igdb you can easily retrieve video game related information such as:
 //!
 //! Games, Franchises, Videos, Artworks, Covers, Screenshots, Release Dates, Multiplayer Options, Game Engines, Websites and much more!.
 //!
@@ -16,11 +16,11 @@
 //!
 //!  [IGDB Api]
 //!
-//! [Repository]: https://github.com/CarlosLanderas/igdb-rs
+//! [Repository]: https://github.com/Hukadan/igdb
 //! [IGDB Site]: https://github.com/TyOverby/bincode
 //! [IGDB Api]: https://api-docs.igdb.com/#endpoints
-//! [examples]: https://github.com/CarlosLanderas/igdb-rs/tree/master/examples
-//! [README]: https://github.com/CarlosLanderas/igdb-rs/blob/develop/README.md
+//! [examples]: https://github.com/Hukadan/igdb/tree/master/examples
+//! [README]: https://github.com/Hukadan/igdb/blob/develop/README.md
 //!
 //! ## Code Examples
 //! You can check some code samples here: [examples]
@@ -31,7 +31,7 @@
 //!
 //! ```no_run
 //!use async_std::task;
-//!use igdb_rs::client::IGDBClient;
+//!use igdb::client::IGDBClient;
 //!
 //!task::block_on(async {
 //!    let games_client = IGDBClient::new("client_id", "token").games();
@@ -55,7 +55,7 @@
 //!
 //!```no_run
 //!use async_std::task;
-//!use igdb_rs::client::IGDBClient;
+//!use igdb::client::IGDBClient;
 //!
 //!   task::block_on(async {
 //!        let games_client = IGDBClient::new("client_id", "token").games();
@@ -87,7 +87,7 @@
 //!
 //!```no_run
 //!use async_std::task;
-//!use igdb_rs::client::IGDBClient;
+//!use igdb::client::IGDBClient;
 //!
 //!   task::block_on(async {
 //!        let igdb_client = IGDBClient::new("client_id", "token");
@@ -123,8 +123,8 @@
 //! ```no_run
 //!
 //!use async_std::task;
-//!use igdb_rs::client::IGDBClient;
-//!use igdb_rs::media_quality::MediaQuality;
+//!use igdb::client::IGDBClient;
+//!use igdb::media_quality::MediaQuality;
 //!
 //!
 //! task::block_on(async {

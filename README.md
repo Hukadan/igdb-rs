@@ -5,6 +5,9 @@
 [![Cargo](https://img.shields.io/crates/v/igdb-rs.svg)](https://crates.io/crates/igdb-rs)
 [![Documentation](https://docs.rs/igdb-rs/badge.svg)](https://docs.rs/igdb-rs)
 
+This is a fork of the original [igbsd-rs](https://github.com/CarlosLanderas/igdb-rs) written
+by Carlos Landeras. I updated it to be compatible with the latest igdb API.
+
 ## Non-Official Internet Game Database Rust Api Client
 
 <img src="https://pbs.twimg.com/profile_banners/291339840/1540286026/1080x360">

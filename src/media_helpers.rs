@@ -40,5 +40,5 @@ pub(crate) fn parse_url<S: Into<String>>(url: S, quality: MediaQuality) -> Strin
         u => u,
     };
 
-    parsed_url.replace("thumb", &quality.get_value())
+    parsed_url.replace("thumb", quality.get_value())
 }

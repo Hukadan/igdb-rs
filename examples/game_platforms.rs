@@ -1,5 +1,5 @@
 use async_std::task;
-use igdb_rs::client::IGDBClient;
+use igdb::client::IGDBClient;
 fn main() {
     task::block_on(async {
         use std::env;

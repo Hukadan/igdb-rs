@@ -1,6 +1,6 @@
 use async_std::task;
-use igdb_rs::client::IGDBClient;
-use igdb_rs::request_builder::{Equality, OrderBy};
+use igdb::client::IGDBClient;
+use igdb::request_builder::{Equality, OrderBy};
 
 fn main() {
     task::block_on(async {

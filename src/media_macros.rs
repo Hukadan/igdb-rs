@@ -5,8 +5,8 @@ macro_rules! expand_media_download {
             /// MediaQuality is an enum that specifies different image sizes
             /// # Examples
             /// ```no_run
-            /// use igdb_rs::client::IGDBClient;
-            /// use igdb_rs::media_quality::MediaQuality;
+            /// use igdb::client::IGDBClient;
+            /// use igdb::media_quality::MediaQuality;
             /// let client = IGDBClient::new("client_id", "token");
             /// let screenshot_client = client.screenshots();
             /// screenshot_client.download_by_id(12400, "screen.jpg".to_string(), MediaQuality::ScreenshotHuge,);
@@ -27,8 +27,8 @@ macro_rules! expand_media_download {
             /// MediaQuality is an enum that specifies different image sizes
             /// # Examples
             /// ```no_run
-            /// use igdb_rs::client::IGDBClient;
-            /// use igdb_rs::media_quality::MediaQuality;
+            /// use igdb::client::IGDBClient;
+            /// use igdb::media_quality::MediaQuality;
             /// let client = IGDBClient::new("client_id", "token");
             /// let screenshot_client = client.screenshots();
             /// screenshot_client.get_resource_by_id(12400, MediaQuality::ScreenshotHuge,);

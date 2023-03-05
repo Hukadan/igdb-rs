@@ -1,6 +1,6 @@
 use async_std::task;
-use igdb_rs::client::IGDBClient;
-use igdb_rs::media_quality::MediaQuality;
+use igdb::client::IGDBClient;
+use igdb::media_quality::MediaQuality;
 
 fn main() {
     femme::with_level(log::LevelFilter::Debug);

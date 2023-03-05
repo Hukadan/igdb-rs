@@ -6,14 +6,14 @@
 [![Documentation](https://docs.rs/igdb-rs/badge.svg)](https://docs.rs/igdb-rs)
 
 This is a fork of the original [igbsd-rs](https://github.com/CarlosLanderas/igdb-rs) written
-by Carlos Landeras. I updated it to be compatible with the latest igdb API.
+by Carlos Landeras. I updated it to be compatible with the latest IGDB API.
 
 ## Non-Official Internet Game Database Rust Api Client
 
 <img src="https://pbs.twimg.com/profile_banners/291339840/1540286026/1080x360">
 
 
-With **igdb-rs** you can easily retrieve video game related information such as:
+With **igdb** you can easily retrieve video game related information such as:
 
 - Games
 - Game Engines,
@@ -48,10 +48,10 @@ https://api-docs.igdb.com/#endpoints
 
 
 ## Documentation
-Check the documentation here : [docs](https://docs.rs/igdb-rs)
+Check the documentation here : [docs](https://docs.rs/igdb)
 
 ## Examples
-You can find some sample code snippets here: [examples](https://github.com/CarlosLanderas/igdb-rs/tree/master/examples)
+You can find some sample code snippets here: [examples](https://github.com/Hukadan/igdb-rs/tree/master/examples)
 
 ## Quickstart
 
@@ -59,13 +59,13 @@ Add the following lines to you `Cargo.toml`:
 
 ```toml
 [dependencies]
-igdb-rs = "*"
+igdb = "*"
 ```
 
 Or use [cargo add][cargo-add] if you have it installed:
 
 ```sh
-$ cargo add igdb-rs
+$ cargo add igdb
 ```
 
 [cargo-add]: https://github.com/killercup/cargo-edit
@@ -105,7 +105,7 @@ igdb-rs supports the following endpoints at this moment:
 
 ## Code samples
 
-With igdb-rs you can easily query the Internet Game Database.
+With igdb you can easily query the Internet Game Database.
 
 You just need to create an IGDBClient object with your client_id
 and your token. You can sign in and generate one as explained here:
@@ -114,7 +114,7 @@ https://api-docs.igdb.com/#account-creation
 
 ## Running samples
 
-You can find some sample code snippets here: [examples](https://github.com/CarlosLanderas/igdb-rs/tree/master/examples)
+You can find some sample code snippets here: [examples](https://github.com/Hukadan/igdb-rs/tree/master/examples)
 ```
 In order to run the samples, just set the IGDB_CLIENT_ID and IGDB_TOKEN
 environment variables with your client_id and token key and execute it by

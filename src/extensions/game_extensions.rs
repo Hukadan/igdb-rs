@@ -49,7 +49,10 @@ async fn get_game_result(
     games_future: impl Future<Output = Result<Vec<Game>, Error>>,
 ) -> Option<Game> {
     match games_future.await {
-        Ok(games) => Some(games[0].clone()),
+        Ok(games) => match games.get(0) {
+            Some(game) => Some(game.clone()),
+            None => None,
+        },
         Err(e) => {
             log::error!("{}", e);
             None

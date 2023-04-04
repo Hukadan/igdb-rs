@@ -2,7 +2,7 @@
 name = "igdb"
 version = "0.1.2"
 authors = ["hukadan <me@hukadan.org>", "Carlos Landeras"]
-edition = "2018"
+edition = "2021"
 license = "Apache-2.0/MIT"
 repository = "https://github.com/Hukadan/igdb-rs"
 homepage = "https://github.com/Hukadan/igdb-rs"
